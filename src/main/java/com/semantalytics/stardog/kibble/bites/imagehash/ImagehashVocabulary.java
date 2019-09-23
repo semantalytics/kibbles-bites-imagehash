@@ -1,6 +1,7 @@
 package com.semantalytics.stardog.kibble.bites.imagehash;
 
 import com.stardog.stark.IRI;
+import com.stardog.stark.Value;
 import com.stardog.stark.Values;
 
 public enum ImagehashVocabulary {
@@ -11,7 +12,9 @@ public enum ImagehashVocabulary {
     differenceHash,
     medianHash,
     perceptiveHash,
-    rotHash,
+    rotPHash,
+    rotAverageHash,
+    hammingDistance,
     waveletHash;
 
     public static final String NAMESPACE = "http://semantalytics.com/2019/09/ns/stardog/kibble/bites/imagehash/";
